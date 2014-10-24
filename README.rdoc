@@ -1,0 +1,7 @@
+Plan:
+
+1. Home page view
+2. Links
+3. Sign in/up/out
+4. Task page view (after sign in)
+5. Task functions (add, edit, mask as done, clean)

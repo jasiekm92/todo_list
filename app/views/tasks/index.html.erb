@@ -1,0 +1,22 @@
+<div class="list">
+  <div class='title'>to-do:</div>
+    <div class="items">
+    <% @tasks.each do |task| %>
+
+
+      <li class="item"><%= link_to task.content, task, { controller: 'tasks', method: 'edit' } %></li>
+
+
+    <% end %>
+    </div>
+
+    <%= form_for @task, url: url_for(controller: 'tasks', action: 'create') do |f| %>
+      <%= f.text_field :content %>
+      <%= f.submit "Add" %>
+    <% end %>
+</div>
+<div class="help">
+<p>Enter to add a new task.</p>
+<p>One click to delete</p>
+<p>Or you can <%= link_to "delete all", { controller: 'tasks', action: 'destroy_all'}, method: 'delete' %></p>
+</div>

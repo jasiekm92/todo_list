@@ -1,0 +1,95 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Mono|PT+Serif:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
+
+
+body { 
+  font-family:'PT Sans', 'Roboto', 'Verdana', sans-serif;
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center; color: #1c1c1c;
+  background: #eaeaea; 
+}
+
+a {
+  color: #00f;
+  text-decoration: none;
+}
+
+.title {
+  width: 800px;
+  font-family: 'PT Serif';
+  font-size: 48px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.list form {
+  display: inline-block;
+}
+
+nav {
+  background: #e95644;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+nav li {
+    display: inline;
+    font-size: 20px;
+    padding-right: 30px;
+}
+nav a {
+  color: inherit;
+}
+nav li a:hover {
+  text-decoration: underline;
+}
+.list input[type=text] {
+  height: 40px;
+  width: 300px;
+  background: #ebebeb;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  padding: 5px;
+  border: 3px double #acacac;
+  margin-left: 70px;
+}
+
+.list input[type=submit]{
+  display: inline-block;
+  width: 60px;
+  height: 40px;
+  color: #fdfdfd;
+	background: #e95644;
+	font-family: 'PT Serif', 'Georgia', serif;
+	text-align:center;
+  padding-top: 14px;
+  border-radius: 2px;
+}
+.list #button:hover {
+  background: #e22;
+}
+
+.list .items {
+  font-family: 'PT Serif';
+  font-size: 24px;
+  padding: 10px;
+  padding-bottom: 30px;
+  list-style: none;
+}
+
+.list .item {
+  margin: 5px;
+}
+
+.list a {
+  color: inherit;
+}
+.list .item:hover a {
+  color: #acacac;
+  text-decoration: line-through;
+}
